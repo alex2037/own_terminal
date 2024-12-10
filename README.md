@@ -30,4 +30,12 @@
 
   ## Usage
 
-Clone, RUN by ./your_terminal.sh
+get and run:
+	Clone
+	RUN by ./your_terminal.sh
+OR docker run
+	Clone
+	docker build . -t terminal
+	docker run -it terminal bash
+	./terminal
+
